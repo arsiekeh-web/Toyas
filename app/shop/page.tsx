@@ -4,7 +4,7 @@ import { useState } from "react";
 import { SHOP_ITEMS } from "@/lib/data";
 import { ProductCard } from "@/components/product-card";
 import { useCart } from "@/lib/cart-context";
-import { AuroraBackground } from "@/components/ui/aurora-background";
+
 
 const FILTERS = [
   { key: "all", label: "All" },
